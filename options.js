@@ -5,6 +5,9 @@ DEFAULT_BG_COLOUR = "blue";
     and be restored when options are accessed in the future
 */
 function saveOptions(){
+    // Get the user's selected colour value
+    var colourSelected = document.getElementById("colourSelected").value;
+    
     // Save the colour selected by the user in Chrome's storage
     // By using .sync, it will save to their account and persist
     chrome.storage.sync.set({      
