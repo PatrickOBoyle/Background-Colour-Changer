@@ -1,4 +1,4 @@
-DEFAULT_BG_COLOUR = "blue";
+var DEFAULT_BG_COLOUR = "blue";
 
 /*
     Saves colour value to chrome.storage to change page colour
